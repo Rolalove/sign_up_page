@@ -162,10 +162,12 @@ input:focus {
   }
   #d_0_b{
     background-color: #fff;
-    color: rgba(1, 28, 52, 1);
+    color: rgba(115, 115, 115, 1);
+
   }
   #select_here{
-    color: rgba(1, 28, 52, 1);
+    color: rgba(115, 115, 115, 1);
+
   }
 }
 
