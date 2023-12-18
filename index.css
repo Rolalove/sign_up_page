@@ -110,6 +110,12 @@ input:focus {
 select{
   color:rgba(115, 115, 115, 1);
 }
+select, input{
+    background-color: #fff;
+  }
+  #d_0_b{
+    background-color: #fff;
+  }
 .password input,
 .activity select {
   width: 100%;
@@ -141,7 +147,7 @@ select{
 
 /* Responsive design */
 /* tablet screen */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .container {
     width: 95%;
     height: 80vh;
@@ -160,12 +166,7 @@ select{
   select {
     margin-right: 30px;
   }
-  select, input{
-    background-color: #fff;
-  }
-  #d_0_b{
-    background-color: #fff;
-  }
+  
   
 }
 
