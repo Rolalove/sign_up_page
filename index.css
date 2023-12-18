@@ -86,12 +86,19 @@ select {
   height: 35px;
   margin-top: 10px;
   border: 1px solid rgba(240, 240, 240, 1);
+  outline: none;
 }
 .gender_date_of_birth,
 .weight_height,
 .password,
 .activity {
   margin-top: 10px;
+}
+select:focus{
+  border: 3px solid rgba(46, 196, 182, 1);
+}
+input:focus {
+  border: 3px solid rgba(46, 196, 182, 1);
 }
 .details {
   color: rgba(1, 28, 52, 1);
@@ -116,7 +123,7 @@ select {
   margin-top: 10px;
   color: #000;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 25px;
   text-align: center;
 }
@@ -164,11 +171,13 @@ select {
     height: 100vh;
   }
   .left_side {
+    margin-top: 20px;
     width: 100%;
     padding: 0px;
   }
   .mini_box {
     width: 80%;
+    height: fit-content;
 
     margin: 40px 0px 0px 20px;
   }
@@ -188,10 +197,13 @@ select {
     height: max-content;
   }
   input,select {
-    width: 100%;
+    min-width: 100%;
     height: 48px;
     margin-top: 11px;
     margin-bottom: 12px;
+  }
+  select{
+    background-color: #fff;
   }
   .name {
     margin-top: 10px;
@@ -214,5 +226,6 @@ select {
     text-align: center;
     margin-top: 15px;
     color: #000;
+    font-weight: 500;
   }
 }
