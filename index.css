@@ -157,6 +157,16 @@ input:focus {
   select {
     margin-right: 30px;
   }
+  select, input{
+    background-color: #fff;
+  }
+  #d_0_b{
+    background-color: #fff;
+    color: rgba(1, 28, 52, 1);
+  }
+  #select_here{
+    color: rgba(1, 28, 52, 1);
+  }
 }
 
 /* mobile screen */
@@ -178,10 +188,8 @@ input:focus {
   .mini_box {
     width: 80%;
     height: fit-content;
-
     margin: 40px 0px 0px 20px;
   }
-
   .right_side {
     width: 100%;
     padding: 20px;
@@ -203,13 +211,6 @@ input:focus {
     margin-bottom: 12px;
   }
   select, input{
-    background-color: #fff;
-  }
-  ::placeholder{
-    color: rgba(1, 28, 52, 1);
-
-  }
-  #d_0_b{
     background-color: #fff;
   }
   .name {
