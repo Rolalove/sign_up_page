@@ -162,12 +162,9 @@ input:focus {
   }
   #d_0_b{
     background-color: #fff;
-    color: rgba(115, 115, 115, 1);
-
   }
-  #select_here{
+  ::option-placeholder{
     color: rgba(115, 115, 115, 1);
-
   }
 }
 
