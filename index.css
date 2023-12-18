@@ -101,18 +101,16 @@ input:focus {
   border: 3px solid rgba(46, 196, 182, 1);
 }
 .details {
+  color: rgba(1, 28, 52, 1);
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.1px;
 }
-.add{
-  color: rgba(1, 28, 52, 1);
-}
 select{
-  color: yellow;
+  color:rgba(115, 115, 115, 1);
+;
 }
-
 .password input,
 .activity select {
   width: 100%;
@@ -168,9 +166,6 @@ select{
   }
   #d_0_b{
     background-color: #fff;
-  }
-  option{
-    color: rgba(115, 115, 115, 1);
   }
   
 }
