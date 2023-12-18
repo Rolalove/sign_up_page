@@ -113,9 +113,9 @@ input:focus {
 }
 .register_button input {
   height: 35px;
-  color: var(--basic-100, #fff);
+  color:  #fff;
   width: 100%;
-  background-color: var(--cl-green, #2ec4b6);
+  background-color: #2ec4b6;
   border: none;
   border-radius: 5px;
 }
@@ -202,7 +202,14 @@ input:focus {
     margin-top: 11px;
     margin-bottom: 12px;
   }
-  select{
+  select, input{
+    background-color: #fff;
+  }
+  ::placeholder{
+    color: rgba(1, 28, 52, 1);
+
+  }
+  #d_0_b{
     background-color: #fff;
   }
   .name {
