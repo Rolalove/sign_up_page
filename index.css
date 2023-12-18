@@ -163,9 +163,10 @@ input:focus {
   #d_0_b{
     background-color: #fff;
   }
-  select::placeholder{
+  option{
     color: rgba(115, 115, 115, 1);
   }
+  
 }
 
 /* mobile screen */
